@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.C0mmand" name="C0mmand Rep0" version="0.47.0" provider-name="C0mmand">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="C0mmand Rep0">
+            <info compressed="false">http://raw.github.com/C0mmand/C0mmand-Rep0/master//_repo/addons.xml</info>
+            <checksum>http://raw.github.com/C0mmand/C0mmand-Rep0/master//_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://raw.github.com/C0mmand/C0mmand-Rep0/master//_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Install Addons the from Me</summary>
+            <description>Just hit my repo and install loads of goodies</description>
+            <platform>all</platform>
+    </extension>
+</addon>
