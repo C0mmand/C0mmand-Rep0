@@ -3,41 +3,39 @@ import xbmcgui,xbmcplugin
 # GitWeb: https://github.com/C0mmand
 
 # BT Sports UK
-name1='  stream1  '
+name1='  BT Sport 1  '
 # STREAM 1 URL
 link1='http://maxiptv.dyndns.org:8000/live/7Kbk8XRf61/JSYw2Hu8Rf/32.ts'
 
 # BT Sports 2 UK
-name2='  stream2  '
+name2='  BT Sports 2  '
 # STREAM 2 URL
 link2='http://maxiptv.dyndns.org:8000/live/7Kbk8XRf61/JSYw2Hu8Rf/33.ts'
 
 # TSN 1 USA
-name3='  stream3  '
+name3='  TSN 1  '
 # STREAM 3 URL
 link3='http://iptvspeedy4you.ddns.net:8000/live/volkii24@outlook.de/wZu5jOzfNo/556.ts'
 
 # One By 4K
-name4='  stream4  '
+name4='  Music Channel 4K  '
 # STREAM 4 URL
 link4='http://rtmp.one.by:1400/'
 
 # NTV+ Futbol HD
-name5='  stream5  '
+name5='  NTV+ Futbol HD  '
 # STREAM 5 URL
 link5='http://78.30.254.27:8989/udp/239.0.0.169:4000'
 
 # NBC Sports Network 1080P
-name6='  stream6  '
+name6='  NBC Sports Network 1080P  '
 # STREAM 6 URL
 link6='http://tvenbcsn-i.Akamaihd.net/hls/live/218235/nbcsnx/4296k/prog.m3u8|X-Forwarded-For=209.239.112.104'
 
 # Sky Sports Plus  IT
-name7='  stream7  '
+name7='  Sky Sports Plus  IT  '
 # STREAM 7 URL
 link7='http://visionhd.dyndns.tv:8000/live/cam2oS6h7n/G8AH9N9wcP/24.ts'
-
-
 
 
 
