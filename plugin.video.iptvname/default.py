@@ -22,14 +22,12 @@ version = Addon.getAddonInfo('version')
 updates=urllib.urlopen('%s/version.php'%(BASE)).read()
 addon_name="IPTV Manager"
 def CATEGORIES():
-        addDir('[COLOR green][B]SERVER FILES AVALIBLE TO DOWNLOAD[/B][/COLOR] - [I]CLICK HERE FOR MORE INFOMATON[/I]       ','due to the lack of people being bothered to give me feedback. people wishing to get the server files will have to go to http://facebook.com/kodicontrol and message me or leave a comment requesting the server files if you have truble installing i will be glad to help you. the server files comes with DATABASE .sql . the PHP Files. And A Configured Kodi Addon ',7,'%s/resources/icons/featured.png'%(addonDir))
+             
         addDir('%s - [I]%s[/I]'%(event,eventdescription),'PPV',5,'%s/resources/icons/featured.png'%(addonDir))
         addDir('[B]Search[/B]','/browse.php?q=',1,'%s/resources/icons/search.png'%(addonDir))
-        addDir('Channels','/channelshow.php',17,'%s/resources/icons/10.png'%(addonDir))
         addDir('On-Demand','/vodshow.php',11,'%s/resources/icons/9.png'%(addonDir))
-        addDir2('Settings','settings',3,'%s/resources/icons/8.png'%(addonDir))
         if updates <> "%s"%(version):
-            addDir('Addon Infomation - [I]Update Avalible[/I]','dd',15,'%s/resources/icons/report.png'%(addonDir))
+            addDir('Addon Infomation - [I]Update Soon[/I]','dd',15,'%s/resources/icons/report.png'%(addonDir))
         else:
             addDir('Addon Infomation','about',15,'%s/resources/icons/report.png'%(addonDir))
         addDir2('Contact Us','about',12,'%s/resources/icons/3.png'%(addonDir))
@@ -38,6 +36,8 @@ def CATEGORIES():
            addDir2('[B][COLOR red]Logout[/COLOR][/B]','login',9,'%s/resources/icons/logout.png'%(addonDir))
         else:
            addDir2('[COLOR green]Login[/COLOR]','login',4,'%s/resources/icons/login.png'%(addonDir))
+       
+        
 		   
 def addon_info():
         if version == updates:
