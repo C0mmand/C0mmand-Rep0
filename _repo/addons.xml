@@ -15,7 +15,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.iptvname" name="C0mmand Pr0 IPTV" version="1.47.0" provider-name="Pipcan-C0mmand">
+<addon id="plugin.video.iptvname" name="C0mmand Pr0 IPTV" version="1.47.0" provider-name="C0mmand">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
 <import addon="script.module.simplejson" version="3.3.0"/>
