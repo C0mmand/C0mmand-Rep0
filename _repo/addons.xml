@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.easychannels" name="iWantTV" version="1.6" provider-name="pipcan-C0mmand">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Watch Free TV</summary>
-    <description>Just enjoy back on your counch and watch iWantTV....</description>
-  </extension>
-</addon>
-
-<addon id="plugin.video.iptvname" name="C0mmand Pr0 IPTV" version="1.47.0" provider-name="C0mmand">
+<addon id="plugin.video.C0mmand" name="C0mmand Pr0 IPTV" version="1.47.0" provider-name="C0mmand">
 <requires>
 <import addon="xbmc.python" version="2.1.0"/>
 <import addon="script.module.simplejson" version="3.3.0"/>
@@ -32,6 +17,21 @@
 Testing the ****VIP****</description>
 <platform>all</platform>
 </extension>
+</addon>
+
+<addon id="plugin.video.easychannels" name="iWantTV" version="1.6" provider-name="pipcan-C0mmand">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Watch Free TV</summary>
+    <description>Just enjoy back on your counch and watch iWantTV....</description>
+  </extension>
 </addon>
 
 <addon id="plugin.video.wizard"
