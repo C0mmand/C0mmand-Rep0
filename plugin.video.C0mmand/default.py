@@ -36,7 +36,7 @@ def CATEGORIES():
            addDir2('[B][COLOR red]Logout[/COLOR][/B]','login',9,'%s/resources/icons/logout.png'%(addonDir))
         else:
            addDir2('[COLOR green]Login[/COLOR]','login',4,'%s/resources/icons/login.png'%(addonDir))
-       
+           addDir('Channels','/channelshow.php',17,'%s/resources/icons/10.png'%(addonDir))
         
 		   
 def addon_info():
