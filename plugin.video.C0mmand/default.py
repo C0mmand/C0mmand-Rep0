@@ -6,7 +6,7 @@ firstrun=xbmcplugin.getSetting(int(sys.argv[1]), 'firstrun')
 login=xbmcplugin.getSetting(int(sys.argv[1]), 'login')
 record_time=xbmcplugin.getSetting(int(sys.argv[1]), 'record_time')
 # Edit line below
-BASE = "http://iptvmanager.co.uk/"		
+BASE = "http://iptvmanager.co.uk/admin/"		
 ADDON = xbmcaddon.Addon(id='plugin.video.C0mmand')
 AddonID = 'plugin.video.C0mmand'
 Addon = xbmcaddon.Addon(AddonID)
