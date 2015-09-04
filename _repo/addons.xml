@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.C0mmand" name="C0mmand Pr0 IPTV" version="1.52.0" provider-name="C0mmand">
-<requires>
-<import addon="xbmc.python" version="2.1.0"/>
-<import addon="script.module.simplejson" version="3.3.0"/>
-<import addon="script.module.urlresolver"  version="2.1.2"/>
-<import addon="script.module.addon.common" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="default.py">
-<provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-<summary lang="en"/>
-<language>en</language>
-<description lang="en">The Addon has been #Test Launched.......
-Testing the ****VIP****</description>
-<platform>all</platform>
-</extension>
-</addon>
-
 <addon id="plugin.video.easychannels" name="iWantTV" version="1.6" provider-name="pipcan-C0mmand">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -47,6 +28,30 @@ Testing the ****VIP****</description>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Wizard Installer</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Xtream-Codes"
+       name="C0mmand Pr0 TV"
+<<<<<<< HEAD
+       version="10.1.1"
+       provider-name="C0mmandPipcan">
+=======
+       version="9.9.1"
+       provider-name="Pipcan,C0mmand">
+>>>>>>> origin/master
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">#Launched....</summary>
     <language>en</language>
     <description lang="en"></description>
      <platform>all</platform>
