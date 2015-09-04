@@ -30,7 +30,11 @@ def CATEGORIES():
             addDir('[COLOR yellow]LOGGED IN AS:[/COLOR]  %s'%(usern),'%s:%s/panel_api.php?username=%s&password=%s'%(site,port,usern,passw),6	,'')
             addDir('My Account','%s:%s/panel_api.php?username=%s&password=%s'%(site,port,usern,passw),6,'')
 <<<<<<< HEAD
+<<<<<<< HEAD
             addDir('Premium Live Sports','%s:%s/panel_api.php?username=%s&password=%s'%(site,port,usern,passw),5,'')
+=======
+            addDir('Premuim Live Sports','%s:%s/panel_api.php?username=%s&password=%s'%(site,port,usern,passw),5,'')
+>>>>>>> origin/master
 =======
             addDir('Premuim Live Sports','%s:%s/panel_api.php?username=%s&password=%s'%(site,port,usern,passw),5,'')
 >>>>>>> origin/master

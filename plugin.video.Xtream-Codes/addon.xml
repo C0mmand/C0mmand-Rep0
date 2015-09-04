@@ -2,8 +2,13 @@
 <addon id="plugin.video.Xtream-Codes"
        name="C0mmand Pr0 TV"
 <<<<<<< HEAD
+<<<<<<< HEAD
        version="10.1.1"
        provider-name="C0mmandPipcan">
+=======
+       version="9.9.1"
+       provider-name="Pipcan,C0mmand">
+>>>>>>> origin/master
 =======
        version="9.9.1"
        provider-name="Pipcan,C0mmand">
